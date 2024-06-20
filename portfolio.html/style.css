@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.section {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.colored {
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos específicos para as seções */
+
+#profile h2, #objectives h2, #skills h2, #learning h2, #future-contributions h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#profile p, #objectives p, #skills p, #learning p, #future-contributions p {
+    color: #666;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+#profile {
+    background-color: #f9f9f9;
+}
+
+#objectives {
+    background-color: #e9f7fc;
+}
+
+#skills {
+    background-color: #f9f9f9;
+}
+
+#learning {
+    background-color: #e9f7fc;
+}
+
+#future-contributions {
+    background-color: #f9f9f9;
+}
+
+footer p {
+    font-size: 0.8em;
+}
+
+/* Botão fictício "Saiba mais" */
+
+.button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #555;
+}
